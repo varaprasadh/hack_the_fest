@@ -48,5 +48,3 @@ git clone https://github.com/<your_username>/hack_the_fest.git
 </p>
 
 ### thanks for contributing!
-
-sdlbknblsknbslkn
