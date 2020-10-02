@@ -1,0 +1,257 @@
+/*Import font styles*/
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/variables.css);
+
+/* css Global  */
+@import url(./partials/globals.css);
+
+/*Navigation*/
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+
+}
+.header-area .main-menu .navbar {
+    padding: 1rem 10rem;
+
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font:normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.2rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav  a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+/* Banner area */
+
+.site-main .site-banner{
+    background:url(./images/banner/home-banner.png) no-repeat 0% 50%;
+
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 4px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin: 5%;
+    transform: translateY(22px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/* End Banner style */
+
+/* Intro style */
+
+.site-main.about-area{
+    padding: 8rem 5rem;
+}
+.site-main.about-area.about-title h2 > span{
+        display: block;
+        font:normal bold 49px/60px var(--roboto);
+        letter-spacing:21px;
+}
+
+.site-main.about-area.about-title.paragraph > p {
+    padding: 4rem 0;
+}
+/* End Intro style */
+
+/* Start testimonials ares */
+.site-main .testimonials-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+.site-main .testimonials-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+.site-main .testimonials-area .first-row .col-lg-4 > .single { 
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.site-main .testimonials-area .first-row .col-lg-4 > .single > img{
+    width: 50%;
+}
+.site-main .site-main .testimonials-area .first-row .col-lg-4 > .single:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.site-main .testimonials-area .first-row .col-lg-4 > .single:hover > img{
+    filter: brightness(0.15);
+}
+.site-main .testimonials-area .experience {
+    padding-left: 1rem;
+}
+.site-main .testimonials-area .experience span{
+    display: block;
+}
+.site-main .testimonials-area .experience .years-area{
+    background: url(../images/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem; 
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+.site-main .testimonials-area .experience .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site-main .testimonials-area .experience .years-area .years{
+    font:normal bold 84px/40px var(--roboto);
+    color: var(--primary-color);
+    z-index: 2;
+}
+.site-main .testimonials-area .experience .years-area h2 > span {
+    font:normal 600 22px/30px var(--roboto);
+}
+.site-main .testimonials-area .experience .cell-area{
+    padding-left: 10rem;
+}
+/* End testmonials ares */
+
+/* Start services Style */
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+.site-main > .services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);   
+}
+/* End Services style */
+
+/* Style Projects */
+.site-main .project-area{
+    padding: 4rem 0;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button {
+    padding-left: 3rem;
+}
+.site-main .project-area .grid .project > .title h4{
+    font: normal 700 25px/12px var(--roboto);    
+}
+
+.site-main .project-area .grid .project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End project style */
+
+
+/* Clients */
+.site-main .clients-area .about-title p{
+    padding: 1rem 7rem;
+}
+.site-main .clients-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .clients-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .clients-area .client .client-about{
+    padding-top: 2rem;
+}
+.site-main .clients-area .client .client-about h4{
+    font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .clients-area .client .client-about p{
+    font-size: 14px;
+}
+.site-main .clients-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1.5rem;
+}
+
+.site-main .clients-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* Clients */
+
+/* Footer style */
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../images/footer-bg.png) no-repeat;
+}
+footer.footer-area .social h5{
+    font:normal 500 23px/30px var(--roboto);
+}
+footer.footer-area .social a > i {
+    font-size: 24px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+footer.footer-area .social a:hover > i {
+    color: var(--primary-color);
+}
+/* End footer */
