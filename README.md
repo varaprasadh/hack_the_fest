@@ -35,12 +35,12 @@ git clone https://github.com/<your_username>/hack_the_fest.git
   - that's it, we will review the changes and merge with our repo!
 
 ## what you can contribute?
-- coding problems/solutions
-- website landing pages
-- your recent web/app projects!
-- illustrations
-- books
-- wallpapers(mobile/pc)
-- upload whatever you like, but it should be userful/decent content
+- coding problems/solutions.
+- website landing pages.
+- your recent web/app projects!!!
+- illustrations.
+- books.
+- wallpapers(mobile/pc).
+- upload whatever you like, but it should be userful/decent content.
 
 
