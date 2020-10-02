@@ -19,7 +19,7 @@ git clone https://github.com/<your_username>/hack_the_fest.git
           - if there is already a folder with that name that you want to create,then add your files to that
       - upload whatever userful content you can in your directory/folder!
          - i.e, ```hack_the_fest/wallpapers/ironmap.jpg```
-      - after this commit your changes and push to master
+      - after this commit your changes and push to master.
         ```bash
          git add .
         ```
@@ -37,7 +37,7 @@ git clone https://github.com/<your_username>/hack_the_fest.git
 ## what you can contribute?
 - coding problems/solutions.
 - website landing pages.
-- your recent web/app projects!!!
+- your recent web/app projects!
 - illustrations.
 - books.
 - wallpapers(mobile/pc).
