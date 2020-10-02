@@ -1,3 +1,4 @@
+#Billing App
 from tkinter import *
 import math, random, os
 from tkinter import messagebox
@@ -20,8 +21,9 @@ class Bill_App:
         self.tooth = IntVar()
         self.perfume = IntVar()
         self.shampoo = IntVar()
+       
 
-        ##*******************Variables for General Items**********
+        ###*******************Variables for General Items**********
         self.bvita = IntVar()
         self.hor = IntVar()
         self.gly = IntVar()
