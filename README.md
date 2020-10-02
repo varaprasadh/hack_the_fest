@@ -37,7 +37,7 @@ git clone https://github.com/<your_username>/hack_the_fest.git
 ## what you can contribute?
 - coding problems/solutions.
 - website landing pages.
-- your recent web/app projects!!!
+- your recent web/app projects!!
 - illustrations.
 - books.
 - wallpapers(mobile/pc).
