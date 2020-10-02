@@ -1,0 +1,27 @@
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .services-area
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1910px) {
+    .site-main .testimonials-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4% ;
+    }
+}
