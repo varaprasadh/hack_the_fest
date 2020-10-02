@@ -4,8 +4,8 @@
 </center>
 
 ## instructions:
-  - fork this repo (by clicking fork button can be found at top right side of the webpage)
-  - clone the forked repo to local system,if(git installed on your pc,if not,install it)
+  - fork this repo (by clicking fork button can be found at top right side of the webpage).
+  - clone the forked repo to local system,if(git installed on your pc,if not,install it).
   ```bash
   git clone <url of forked repo>
   ```
@@ -19,7 +19,7 @@ git clone https://github.com/<your_username>/hack_the_fest.git
           - if there is already a folder with that name that you want to create,then add your files to that
       - upload whatever userful content you can in your directory/folder!
          - i.e, ```hack_the_fest/wallpapers/ironmap.jpg```
-      - after this commit your changes and push to master
+      - after this commit your changes and push to master:
         ```bash
          git add .
         ```
