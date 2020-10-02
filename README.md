@@ -4,8 +4,8 @@
 </center>
 
 ## instructions:
-  - fork this repo (by clicking fork button can be found at top right side of the webpage)
-  - clone the forked repo to local system,if(git installed on your pc,if not,install it)
+  - fork this repo (by clicking fork button can be found at top right side of the webpage).
+  - clone the forked repo to local system,if(git installed on your pc,if not,install it).
   ```bash
   git clone <url of forked repo>
   ```
@@ -38,9 +38,14 @@ git clone https://github.com/<your_username>/hack_the_fest.git
 - coding problems/solutions.
 - website landing pages.
 - your recent web/app projects!
+- your recent web/app projects!!
 - illustrations.
 - books.
 - wallpapers(mobile/pc).
 - upload whatever you like, but it should be userful/decent content.
 
+<p align="center">
+  <img src="__icon_outro.svg"/>
+</p>
 
+### thanks for contributing!
