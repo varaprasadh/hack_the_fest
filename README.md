@@ -43,4 +43,6 @@ git clone https://github.com/<your_username>/hack_the_fest.git
 - wallpapers(mobile/pc).
 - upload whatever you like, but it should be userful/decent content.
 
-
+<p align="center">
+  <img src="__icon_outro.svg"/>
+</p>
