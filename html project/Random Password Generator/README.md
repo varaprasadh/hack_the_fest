@@ -3,8 +3,8 @@
 This is a simple password generator. It is made using HTML, CSS and JavaScript.
 
 ## Screenshot
-![](screenshot1.PNG)
-![](screenshot2.PNG)
+![](Screenshot1.PNG)
+![](Screenshot2.PNG)
 
 ## Download
 To run html in your localhost. You may clone the repo.
